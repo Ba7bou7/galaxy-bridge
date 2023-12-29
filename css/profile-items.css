@@ -1,0 +1,56 @@
+body {background-color: #000;}
+
+*{
+    margin: 0;
+    border: solid 0;
+    padding: 0;
+}
+
+.label {
+    background-color: #343434;
+    border: solid 1vh #fff;
+    border-radius: 40px;
+    margin: 2.5vh 1vw;
+}
+
+.side-bar {
+    height: 93vh;
+    width: 16vw;
+}
+
+.posts {
+    height: 53vh;
+    width: 76vw;
+}
+
+.pic {
+    background-color: #808080;
+    border: solid 1vh #fff;
+    border-radius: 100%;
+    /*position: absolute; /*top: 2; right: 4vw;*/
+    flex: 100vh 100vw;
+    height: 25vh;
+    width: 12.658vw;
+}
+
+.bio {
+    /*background-color: #808080;*/
+    border: solid 1vb #fff;
+    border-radius: 8vb 0 0 8vb;
+    /*position: relative; right: 12.5vw;*/
+    flex: 1;
+    margin: 6vh 0 6vh 2vw;
+    height: 9vh;
+    width: 40vw;
+}
+
+.likes {
+    border: solid 1vb #fff;
+    border-radius: 8vb;
+    /*position: relative; right: 12vw;*/
+    flex: 1;
+    margin: 8vh 2vw;
+    height: 9vh;
+    width: 9vw;
+}
+
