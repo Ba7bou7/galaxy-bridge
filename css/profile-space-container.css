@@ -1,0 +1,43 @@
+#S-Container {
+    display: flex;
+    flex-direction: column;
+    /*flex: 1;*/
+    background: #ff00ff;
+    align-items: center;
+    height: 100vh;
+    width: 80vw;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row-reverse;
+    /*flex: 1;*/
+    background: #ff0000;
+    border: solid 1vh;
+    margin: 1.5vh 2vw;
+    padding: 2vh 1.5vw;
+    height: 26vh;
+    width: 72vw;
+}
+
+#pic-box {
+    background-color: #808080;
+    /*border: solid 1vh #fff;*/
+    /*border-radius: 100%;*/
+    /*margin: 2vh 3vw;*/
+    /*position: absolute; /*top: 2; right: 4vw;*/
+    flex: initial;
+    height: 150px;
+    width: 150px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row-reverse;
+    /*flex: 1;*/
+    background: #0000ff;
+    border: solid 1vh;
+    margin: 1.5vh 2vw;
+    height: 60vh;
+    width: 75vw;
+}
